@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+body {
+    max-width: 980;
+    margin: auto;
+    color: #000000;
+    background: #000000;
+background: -webkit-linear-gradient(to left, #0043ff , #F8FFAE); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #c643c1 , #fff9f9);
+        
+}
+button {
+    font-size: 1.1em;
+    color: #ff0000;
+    border-radius: 3px;
+    background-color: #001eff;
+    margin: 5px;
+}
+input {
+    font-size: 1.1em;
+    border-radius: 3px;
+}
+svg {
+    border: solid 3px #0029ff;
+    box-shadow: 0 2px 5px 0 #ff0000, 0 2px 8px 0 #ff0000;
+    margin: 5px;
+}
+#svg-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+#btn-container {
+    margin: 20px auto;
+    text-align: center;
+}
+#title {
+    margin: 20px auto;
+    text-align: center;
+}
